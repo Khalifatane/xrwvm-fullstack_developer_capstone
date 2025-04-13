@@ -74,7 +74,7 @@ const Register = () => {
       <form onSubmit={register}>
         <div className="inputs">
           <div className="input">
-            <img src={user_icon} className="img_icon" alt='Nom d'utilisateur' />
+            <img src={user_icon} className="img_icon" alt="Nom d'utilisateur" />
             <input
               type="text"
               name="userName"
@@ -87,7 +87,7 @@ const Register = () => {
           </div>
 
           <div className="input">
-            <img src={user_icon} className="img_icon" alt='Prénom' />
+            <img src={user_icon} className="img_icon" alt="Prénom" />
             <input
               type="text"
               name="firstName"
@@ -100,7 +100,7 @@ const Register = () => {
           </div>
 
           <div className="input">
-            <img src={user_icon} className="img_icon" alt='Nom de famille' />
+            <img src={user_icon} className="img_icon" alt="Nom de famille" />
             <input
               type="text"
               name="lastName"
@@ -113,7 +113,7 @@ const Register = () => {
           </div>
 
           <div className="input">
-            <img src={email_icon} className="img_icon" alt='Adresse e-mail' />
+            <img src={email_icon} className="img_icon" alt="Adresse e-mail" />
             <input
               type="email"
               name="email"
@@ -126,7 +126,7 @@ const Register = () => {
           </div>
 
           <div className="input">
-            <img src={password_icon} className="img_icon" alt='Mot de passe' />
+            <img src={password_icon} className="img_icon" alt="Mot de passe" />
             <input
               type="password"
               name="password"
